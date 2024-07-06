@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be My Girlfriend?</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #ffe6e6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        header {
+            background-color: #ff4d4d;
+            color: white;
+            padding: 20px 0;
+            margin-bottom: 20px;
+            border-radius: 10px;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .intro {
+            font-size: 1.2em;
+        }
+
+        .question {
+            font-size: 2em;
+            color: #ff4d4d;
+            margin: 20px 0;
+        }
+
+        .quote {
+            font-size: 1.5em;
+            color: #666;
+            margin: 10px 0;
+        }
+
+        button {
+            background-color: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            border-radius: 5px;
+            margin: 10px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #e60000;
+        }
+
+        footer {
+            margin-top: 20px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Will You Be My Girlfriend, Samixya?</h1>
+        </header>
+        <section class="content">
+            <p class="intro">Hey Samixya! I have a very important question for you...</p>
+            <p class="question">Will you be my girlfriend?</p>
+            <p class="quote">"You must be made of copper and tellurium because you're Cu-Te!"</p>
+            <p class="quote">" Can I follow you wherever you go? Because my parents always told me to follow my dreams.<br>
+                (Halka fulka cringe pickup line ni rakh deko)"</p>
+            <p class="quote">"Timro ghar aam ki nai ta? Mayalu vana"</p>
+            <button class="yes-button">Yes</button>
+            <button class="no-button">No</button>
+        </section>
+        <footer>
+            <p>&copy; 2024 Sugam Shrestha. All rights reserved.</p>
+        </footer>
+    </div>
+    <script>
+        document.querySelector('.yes-button').addEventListener('click', function() {
+            window.location.href = 'yes.html'; // Replace 'yes.html' with the path to your new page
+        });
+
+        document.querySelector('.no-button').addEventListener('click', function() {
+            alert('Oh no! Maybe I can try again another time.');
+        });
+    </script>
+</body>
+</html>
